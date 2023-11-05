@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="div">
+        <div class="div-2">
+            <div class="div-3">Poem Gallery</div>
+            <div class="div-4">
+                <div class="div-5">
+                    <div class="column">
+                        <img loading="lazy" src="./assets/photo/1.png" class="img" />
+                    </div>
+                    <div class="column-2">
+                        <img loading="lazy" src="./assets/photo/2.png" class="img-2" />
+                    </div>
+                    <div class="column-3">
+                        <img loading="lazy" src="./assets/photo/3.png" class="img-3" />
+                    </div>
+                </div>
+            </div>
+            <div class="div-6">
+                <div class="div-7">
+                    <div class="column-4">
+                        <img loading="lazy" src="./assets/photo/4.png" class="img-4" />
+                        <img loading="lazy" src="./assets/photo/7.png" class="img-5" />
+                    </div>
+                    <div class="column-5">
+                        <img loading="lazy" src="./assets/photo/5.png" class="img-6" />
+                    </div>
+                    <div class="column-6">
+                        <div class="div-8">
+                            <img loading="lazy" src="./assets/photo/6.png" class="img-7" />
+                            <div class="div-9">
+                                <div class="div-10">
+                                    <div class="column-7">
+                                        <img loading="lazy" src="./assets/photo/8.png" class="img-8" />
+                                    </div>
+                                    <div class="column-8">
+                                        <img loading="lazy" src="./assets/photo/9.png" class="img-9" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <style>
+        .div {
+            background-color: #fff;
+            display: flex;
+            flex-direction: column;
+            padding: 0 80px;
+        }
+
+        @media (max-width: 991px) {
+            .div {
+                padding: 0 20px;
+            }
+        }
+
+        .div-2 {
+            align-self: center;
+            display: flex;
+            width: 100%;
+            max-width: 1269px;
+            flex-direction: column;
+            margin: 113px 0 82px;
+        }
+
+        @media (max-width: 991px) {
+            .div-2 {
+                max-width: 100%;
+                margin: 40px 0;
+            }
+        }
+
+        .div-3 {
+            color: #000;
+            align-self: stretch;
+            white-space: nowrap;
+            font: 500 50px Roboto, sans-serif;
+        }
+
+        @media (max-width: 991px) {
+            .div-3 {
+                max-width: 100%;
+                font-size: 40px;
+                white-space: initial;
+            }
+        }
+
+        .div-4 {
+            align-self: stretch;
+            margin-top: 70px;
+        }
+
+        @media (max-width: 991px) {
+            .div-4 {
+                max-width: 100%;
+                margin-top: 40px;
+            }
+        }
+
+        .div-5 {
+            gap: 20px;
+            display: flex;
+        }
+
+        @media (max-width: 991px) {
+            .div-5 {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 0px;
+            }
+        }
+
+        .column {
+            display: flex;
+            flex-direction: column;
+            line-height: normal;
+            width: 51%;
+            margin-left: 0px;
+        }
+
+        @media (max-width: 991px) {
+            .column {
+                width: 100%;
+            }
+        }
+
+        .img {
+            aspect-ratio: 3.12;
+            object-fit: contain;
+            object-position: center;
+            width: 100%;
+            overflow: hidden;
+            flex-grow: 1;
+        }
+
+        @media (max-width: 991px) {
+            .img {
+                max-width: 100%;
+                margin-top: 23px;
+            }
+        }
+
+        .column-2 {
+            display: flex;
+            flex-direction: column;
+            line-height: normal;
+            width: 25%;
+            margin-left: 20px;
+        }
+
+        @media (max-width: 991px) {
+            .column-2 {
+                width: 100%;
+            }
+        }
+
+        .img-2 {
+            aspect-ratio: 1.5;
+            object-fit: contain;
+            object-position: center;
+            width: 100%;
+            overflow: hidden;
+            flex-grow: 1;
+        }
+
+        @media (max-width: 991px) {
+            .img-2 {
+                margin-top: 23px;
+            }
+        }
+
+        .column-3 {
+            display: flex;
+            flex-direction: column;
+            line-height: normal;
+            width: 25%;
+            margin-left: 20px;
+        }
+
+        @media (max-width: 991px) {
+            .column-3 {
+                width: 100%;
+            }
+        }
+
+        .img-3 {
+            aspect-ratio: 1.5;
+            object-fit: contain;
+            object-position: center;
+            width: 100%;
+            overflow: hidden;
+            flex-grow: 1;
+        }
+
+        @media (max-width: 991px) {
+            .img-3 {
+                margin-top: 23px;
+            }
+        }
+
+        .div-6 {
+            align-self: stretch;
+            margin-top: 24px;
+        }
+
+        @media (max-width: 991px) {
+            .div-6 {
+                max-width: 100%;
+            }
+        }
+
+        .div-7 {
+            gap: 20px;
+            display: flex;
+        }
+
+        @media (max-width: 991px) {
+            .div-7 {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 0px;
+            }
+        }
+
+        .column-4 {
+            display: flex;
+            flex-direction: column;
+            line-height: normal;
+            width: 25%;
+            margin-left: 0px;
+        }
+
+        @media (max-width: 991px) {
+            .column-4 {
+                width: 100%;
+            }
+        }
+
+        .img-4 {
+            aspect-ratio: 1.5;
+            object-fit: contain;
+            object-position: center;
+            width: 300px;
+            overflow: hidden;
+            max-width: 100%;
+        }
+
+        @media (max-width: 991px) {
+            .img-4 {
+                margin-top: 23px;
+            }
+        }
+
+        .img-5 {
+            aspect-ratio: 1.5;
+            object-fit: contain;
+            object-position: center;
+            width: 300px;
+            overflow: hidden;
+            max-width: 100%;
+            margin-top: 25px;
+        }
+
+        @media (max-width: 991px) {
+            .img-5 {
+                margin-top: 23px;
+            }
+        }
+
+        .column-5 {
+            display: flex;
+            flex-direction: column;
+            line-height: normal;
+            width: 25%;
+            margin-left: 20px;
+        }
+
+        @media (max-width: 991px) {
+            .column-5 {
+                width: 100%;
+            }
+        }
+
+        .img-6 {
+            aspect-ratio: 0.71;
+            object-fit: contain;
+            object-position: center;
+            width: 100%;
+            overflow: hidden;
+            flex-grow: 1;
+        }
+
+        @media (max-width: 991px) {
+            .img-6 {
+                margin-top: 23px;
+            }
+        }
+
+        .column-6 {
+            display: flex;
+            flex-direction: column;
+            line-height: normal;
+            width: 51%;
+            margin-left: 20px;
+        }
+
+        @media (max-width: 991px) {
+            .column-6 {
+                width: 100%;
+            }
+        }
+
+        .div-8 {
+            display: flex;
+            flex-grow: 1;
+            flex-direction: column;
+        }
+
+        @media (max-width: 991px) {
+            .div-8 {
+                max-width: 100%;
+                margin-top: 23px;
+            }
+        }
+
+        .img-7 {
+            aspect-ratio: 3.12;
+            object-fit: contain;
+            object-position: center;
+            width: 100%;
+            overflow: hidden;
+            align-self: stretch;
+        }
+
+        @media (max-width: 991px) {
+            .img-7 {
+                max-width: 100%;
+            }
+        }
+
+        .div-9 {
+            align-self: stretch;
+            margin-top: 24px;
+        }
+
+        @media (max-width: 991px) {
+            .div-9 {
+                max-width: 100%;
+            }
+        }
+
+        .div-10 {
+            gap: 20px;
+            display: flex;
+        }
+
+        @media (max-width: 991px) {
+            .div-10 {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 0px;
+            }
+        }
+
+        .column-7 {
+            display: flex;
+            flex-direction: column;
+            line-height: normal;
+            width: 50%;
+            margin-left: 0px;
+        }
+
+        @media (max-width: 991px) {
+            .column-7 {
+                width: 100%;
+            }
+        }
+
+        .img-8 {
+            aspect-ratio: 1.5;
+            object-fit: contain;
+            object-position: center;
+            width: 100%;
+            overflow: hidden;
+            flex-grow: 1;
+        }
+
+        @media (max-width: 991px) {
+            .img-8 {
+                margin-top: 23px;
+            }
+        }
+
+        .column-8 {
+            display: flex;
+            flex-direction: column;
+            line-height: normal;
+            width: 50%;
+            margin-left: 20px;
+        }
+
+        @media (max-width: 991px) {
+            .column-8 {
+                width: 100%;
+            }
+        }
+
+        .img-9 {
+            aspect-ratio: 1.5;
+            object-fit: contain;
+            object-position: center;
+            width: 100%;
+            overflow: hidden;
+            flex-grow: 1;
+        }
+
+        @media (max-width: 991px) {
+            .img-9 {
+                margin-top: 23px;
+            }
+        }
+    </style>
+</body>
+
+</html>
